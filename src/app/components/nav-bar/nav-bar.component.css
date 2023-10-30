@@ -1,0 +1,70 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+  .nav-bar-default {
+    background-color: transparent; 
+  }
+  
+  .nav-bar-other {
+    background-color: #0d47a1; 
+  }
+  
+.navLogoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logoSectionLinks {
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px clamp(5px,.7vw,16px);
+    cursor: pointer;
+    letter-spacing: 0px;
+    &:hover {
+        background-color: rgba(244, 244, 244, 0.2);
+        border-radius: 5px;
+    }
+}
+
+.navSearchSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.searchField {
+    padding: 8px 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: 70%;
+    height: fit-content;
+}
+
+.fontawesome__icon {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.verticalLine {
+    width: 2px;
+    height: 40px;
+    background-color: #fff;
+}

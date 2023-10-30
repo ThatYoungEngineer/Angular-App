@@ -1,0 +1,19 @@
+<div class="navContainer" [ngClass]="{'nav-bar-default': isDefaultBackground, 'nav-bar-other': !isDefaultBackground}">
+    <div class="navLogoSection">
+
+        <a routerLink="/" routerLinkActive="active">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+        </a>
+
+        <h2 class="logoSectionLinks">Docs</h2>
+        <h2 class="logoSectionLinks">Community</h2>
+        <h2 class="logoSectionLinks">Blog</h2>
+    </div>
+    <div class="navSearchSection">
+        <input type="text" placeholder="Search" class="searchField">
+        <fa-icon [icon]="faMoon" class="fontawesome__icon"></fa-icon>
+
+        <div class="verticalLine"></div>
+        <div class="socialIcons"></div>
+    </div>
+</div>
